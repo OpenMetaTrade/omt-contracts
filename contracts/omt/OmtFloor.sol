@@ -2,10 +2,7 @@
 
 pragma solidity 0.6.12;
 
-import "../libraries/math/SafeMath.sol";
-import "../libraries/token/IERC20.sol";
-import "../libraries/token/SafeERC20.sol";
-import "../libraries/utils/ReentrancyGuard.sol";
+import "@openzeppelin/contracts/token/ERC20/SafeERC20.sol";
 
 import "../tokens/interfaces/IMintable.sol";
 import "../access/TokenManager.sol";
