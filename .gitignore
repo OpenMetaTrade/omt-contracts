@@ -1,0 +1,16 @@
+# ide
+.vscode
+
+# environment
+.env*
+
+# npm
+node_modules
+
+
+# hardhat
+artifacts
+cache
+typechain
+
+.DS_Store
